@@ -1,0 +1,23 @@
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/load-more.scss";
+@import "~taro-ui/dist/style/components/activity-indicator.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+.home {
+  background-color: #151617;
+}
+.category_list {
+  width: 93%;
+  margin: 0 auto;
+  min-height: 550px;
+  .at-button {
+    height: 70px;
+    color: #B1B1C1;
+    background-color: #585C5F;
+    border-color: #585C5F;
+    border-radius: 4px;
+    .at-button__text {
+      line-height: 70px;
+      font-size: 26px;
+    }
+  }
+}
